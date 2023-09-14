@@ -1,0 +1,10 @@
+> open cmd
+> go inside the folder where you want app
+> npx create-react-app appname
+
+
+function add(a,b){
+    return a,b
+}
+
+add(1,2)
