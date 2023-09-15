@@ -6,5 +6,20 @@
 function add(a,b){
     return a,b
 }
-
 add(1,2)
+
+
+Functional
+> Dumb/Display Component
+> We cannot maintain State
+
+ClassComponent
+> Logical Component
+> Can State maintain
+
+> Hooks
+
+///Step to Generate React App
+** NodeJs must be installed
+> open terminal
+> npx create-react-app appName

@@ -3,20 +3,38 @@
         <link rel="stylesheet" href="./index.css"/>
         <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
         <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+        <script src="https://unpkg.com/@babel/standalone@7.12.4/babel.js"></script>
     </head>
     <body>
         <div id="root"></div>
+        <header></header>
 
-        <script type="module">
+        <script type="text/babel">
             const mainDiv = document.getElementById('root');
 
-            const props = {
-                className:'container',
-                childern:"This is React Library"
+            function Header(){
+                return(
+                    <h1>React App</h1>
+                )
             }
 
-            const element = React.createElement('div',props)
-            ReactDOM.render(element,mainDiv)
+            const Greeting = (props) => {
+                console.log(props)
+                const {name,city} = props
+                return(
+                    <h2>Hi {name} from {city}</h2>
+                )
+                
+            }
+
+            ReactDOM.render(
+                <div>
+                    <Header/>
+                    <Greeting name="Nikita" city="Delhi"/>
+                    <Greeting name="John" city="Amsterdam"/>
+                    <Greeting name="Rahul" city="Paris"/>
+                </div>
+                ,mainDiv)
             
         </script>
     </body>
