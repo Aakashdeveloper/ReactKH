@@ -23,3 +23,19 @@ ClassComponent
 ** NodeJs must be installed
 > open terminal
 > npx create-react-app appName
+
+
+let city = ["Delhi","Mumbai","Pune","London"]
+
+city.map((item) => {
+    return item.toUpperCase()
+})
+
+let numbers = [1,2,3,4]
+numbers.map((data) => {
+    return data*2
+})
+(4) [2, 4, 6, 8]
+https://imgbb.com/
+https://i.ibb.co/SxJp6y9/bulb-on.png
+https://i.ibb.co/fpyWLzs/bulb-off.png
