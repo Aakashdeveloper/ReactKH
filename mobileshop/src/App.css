@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+  margin: auto;
+}
+
+.cart{
+  position: absolute;
+  height: 22px;
+  width:63px;
+  color:white;
+  background-color: #a81c1d;
+  margin-left: 90%;
+  margin-top: 1%;
+  z-index: 10;
+  border-radius:5%;
+  font-size: 20px;
+  padding: 1%;
+}
