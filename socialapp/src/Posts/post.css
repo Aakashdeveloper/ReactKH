@@ -1,0 +1,55 @@
+.postDiv{
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 3%;
+}
+
+.imageDiv{
+    border: 2px solid gray;
+    height: 600px;
+    width: 100%;
+    margin-top: 1%;
+}
+
+.pImage{
+    margin: 1%;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.cImageDiv{
+    height: 77%;
+}
+
+.cImage{
+    height: 100%;
+    width: 100%;
+}
+
+.likeDiv{
+    margin-left: 1%;
+}
+
+@media screen and (max-width:800px) {
+    .postDiv{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .imageDiv{
+        height: 400px;
+    }
+    .cImageDiv{
+        height: 66%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .postDiv{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .imageDiv{
+        height: 400px;
+    }
+}
