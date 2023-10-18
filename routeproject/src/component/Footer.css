@@ -1,0 +1,24 @@
+footer{
+    margin-top:2%;
+    text-align:center;
+    background-color: #3b2632;
+    color:white;
+    height: 140px;
+}
+ul{
+    list-style: none;
+}
+
+.footdiv{
+    width:33%;
+    float: left;
+    border-right: 1px solid white;
+}
+
+.noBorder{
+    border:none
+}
+
+.socialFoot{
+    text-align: center;
+}
